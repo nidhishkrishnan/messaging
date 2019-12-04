@@ -2,8 +2,6 @@
 package com.amqp.messaging.adapters;
 
 import com.amqp.messaging.domain.Admission;
-import com.amqp.messaging.domain.Student;
-import com.amqp.messaging.domain.Teacher;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.Queue;

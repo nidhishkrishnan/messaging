@@ -29,7 +29,7 @@ public class AdmissionListenerAdapter {
 
     @RabbitListener(bindings = {
             @QueueBinding(value = @Queue(
-                    value = "${rabbitmq.admission.queue-name}", durable = "true", ignoreDeclarationExceptions = "true"), //this is to prevent a failure to configure this at startup before the rabbitmq.auth-account-queue.name is declared
+                    value = "${rabbitmq.admission.queue-name}", durable = "true", ignoreDeclarationExceptions = "true"), //this is to prevent a failure to configure this at startup before the rabbitmq.admission.queue-name is declared
                     key = "admission.evt.create",
                     exchange = @Exchange(value = "${rabbitmq.admission.exchange-name}", type = TOPIC, durable = "true"))},
             containerFactory = "rabbitListenerContainerFactory")

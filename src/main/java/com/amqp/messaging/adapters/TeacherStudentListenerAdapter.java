@@ -58,7 +58,7 @@ public class TeacherStudentListenerAdapter {
      */
     @RabbitListener(bindings = {
             @QueueBinding(value = @Queue(
-                    value = "${rabbitmq.teacher.queue-name}", durable = "true", ignoreDeclarationExceptions = "true"), //this is to prevent a failure to configure this at startup before the rabbitmq.auth-account-queue.name is declared
+                    value = "${rabbitmq.teacher.queue-name}", durable = "true", ignoreDeclarationExceptions = "true"), //this is to prevent a failure to configure this at startup before the rabbitmq.teacher.queue-name is declared
                     key = "teacher.evt.login.#",
                     exchange = @Exchange(value = "${rabbitmq.student.exchange-name}", type = TOPIC, durable = "true"))
     }

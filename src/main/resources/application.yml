@@ -1,12 +1,12 @@
 rabbitmq:
   host: localhost
   virtual-host: rabbitmq-host
-  student:
-    exchange-name: student-amq-exchange
-    queue-name: student-queue
-  teacher:
-    exchange-name: teacher-amq-exchange
-    queue-name: teacher-queue
+  user:
+    exchange-name: user-amq-exchange
+    student:
+      queue-name: student-queue
+    teacher:
+      queue-name: teacher-queue
   admission:
     exchange-name: admission-amq-exchange
     queue-name: admission-queue

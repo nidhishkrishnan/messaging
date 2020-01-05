@@ -21,14 +21,14 @@ public class TestController {
 
     @PostMapping("/send-queue-for-student")
     public void sendQueueForStudent(@RequestBody Student student) throws JsonProcessingException {
-        String exchangeName = "student-amq-exchange";
+        String exchangeName = "user-amq-exchange";
         String routingKey = "student.evt.created";
         rabbitTemplate.convertAndSend(exchangeName, routingKey, convertToJsonString(student));
     }
 
     @PostMapping("/send-queue-for-teacher")
     public void sendQueueForTeacher(@RequestBody Teacher teacher) throws JsonProcessingException {
-        String exchangeName = "student-amq-exchange";
+        String exchangeName = "user-amq-exchange";
         String routingKey = "teacher.evt.login";
         rabbitTemplate.convertAndSend(exchangeName, routingKey, convertToJsonString(teacher));
     }

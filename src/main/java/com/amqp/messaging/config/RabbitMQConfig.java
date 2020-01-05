@@ -30,8 +30,8 @@ public class RabbitMQConfig {
 
     @Bean
     public ApplicationRunner createQueues(ConnectionFactory connectionFactory,
-                                          @Value("${rabbitmq.student.queue-name:}") String studentQueueName,
-                                          @Value("${rabbitmq.teacher.queue-name:}") String teacherQueueName,
+                                          @Value("${rabbitmq.user.student.queue-name:}") String studentQueueName,
+                                          @Value("${rabbitmq.user.teacher.queue-name:}") String teacherQueueName,
                                           @Value("${rabbitmq.admission.queue-name:}") String admissionQueueName) {
         return args -> {
             RabbitAdmin rabbitAdmin = new RabbitAdmin(connectionFactory);

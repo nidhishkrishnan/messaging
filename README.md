@@ -22,9 +22,21 @@ Once the application starts successfully, open browser and execute the below url
 http://localhost:15672/
 ```
 
+Check if you are able to see the exhange declaraions like as shown below
+
+<img width="600" alt="Screenshot 2020-07-22 at 20 18 40" src="https://user-images.githubusercontent.com/6831336/88215582-2b13d900-cc5c-11ea-9ae4-3797982d6444.png">
+
+Check if you are able to see the queue declaraions like as shown below
+
+<img width="600" alt="Screenshot 2020-07-22 at 20 38 30" src="https://user-images.githubusercontent.com/6831336/88215080-6bbf2280-cc5b-11ea-84f2-4dbed46b857e.png">
+
+
 ### 4- Access Swagger UI
 
 Open browser and execute the below url
 ```
 http://localhost:8080/swagger-ui.html
 ```
+You can see the swagger ui like as shown below
+
+<img width="600" alt="Screenshot 2020-07-22 at 20 19 41" src="https://user-images.githubusercontent.com/6831336/88214495-95c41500-cc5a-11ea-88de-041911acfabf.png">

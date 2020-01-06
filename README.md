@@ -1,6 +1,6 @@
 # RabbitMQ Messaging
 
- ![image](https://user-images.githubusercontent.com/6831336/88214471-8f359d80-cc5a-11ea-84a9-74e69fa7d5c2.png)
+<img width="800" alt="Screenshot 2020-07-22 at 20 29 41" src="https://user-images.githubusercontent.com/6831336/88214471-8f359d80-cc5a-11ea-84a9-74e69fa7d5c2.png">
 
 ## Running the app
 

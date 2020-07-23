@@ -23,7 +23,7 @@ public class SwaggerConfig {
 
     private ApiInfo generateApiInfo() {
         return new ApiInfoBuilder()
-                .title("Java RabbitMQ Mwssaging")
+                .title("Java RabbitMQ Messaging")
                 .version("1.0.0")
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0")

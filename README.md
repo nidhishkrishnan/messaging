@@ -1,4 +1,4 @@
-# RabbitMQ Messaging
+# Spring Boot RabbitMQ Messaging
 
 This is Spring Boot RabbitMQ example to demonstrate how we can marshall and convert the RabbitMQ message string to Java domain object based on the binding key using MessageConverter
 

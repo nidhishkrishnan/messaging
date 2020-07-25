@@ -20,9 +20,7 @@ docker-compose up
 
 Once the application starts successfully, open browser and execute the below url
 
-```
 http://localhost:15672/
-```
 
 Check if you are able to see the exhange declaraions like as shown below
 
@@ -36,12 +34,12 @@ Check if you are able to see the queue declaraions like as shown below
 ### 4- Access Swagger UI
 
 Open browser and execute the below url
-```
+
 http://localhost:8080/swagger-ui.html
-```
+
 You can see the swagger ui like as shown below
 
-<img width="600" alt="Screenshot 2020-07-22 at 20 19 41" src="https://user-images.githubusercontent.com/6831336/88214495-95c41500-cc5a-11ea-88de-041911acfabf.png">
+<img width="600" alt="Screenshot 2020-07-25 at 15 17 39" src="https://user-images.githubusercontent.com/6831336/88457892-2a608a00-ce8a-11ea-8331-cd22cc3b29da.png">
 
 ## License
 
